@@ -6,7 +6,7 @@ theme : twitter
 production_url : http://ifchange.ruhoh.com
 
 posts:
-  permalink: /:categories/:title/
+  permalink: /:year/:month/:filename
   summary_lines: 20
   latest: 10
 
