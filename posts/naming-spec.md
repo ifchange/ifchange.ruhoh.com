@@ -10,7 +10,7 @@ categories: 前端规范
 - 使用英文命名，避免使用拼音。
 - 使用小写字母，数字和破折号组成，多个单词之间使用破折号“-”连接。
 - JS/CSS文件命名建议： 名词（页面是什么）+动词（该页面是做什么的），如customer-add.css，candidate-search.js,
-- 图片命名建议：类型+具体说明，如icon-user，icon-addv，icon-next，btn-save，btn-cancel，bg-body，bg-block，arrow-down.png, arrow-down-big.png等
+- 图片命名建议：类型+具体说明，如icon-user，icon-addv，icon-next，btn-save，btn-cancel，bg-body，bg-block，arrow-down.png，arrow-down-big.png等
 
 ### 图片相关 ###
 
