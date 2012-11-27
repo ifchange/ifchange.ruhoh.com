@@ -22,6 +22,7 @@ categories: 前端规范
 - 除了作为JS钩子元素或者全局唯一独立模块外，最好不要用ID，确保在任何一个页面不会出现ID的重复。
 - JS钩子的ID一律采用“J\_xxx”的方式定义，多单词组合用驼峰式命名（如J\_toggler，J\_siteNav，J\_searchForm），不要在CSS文件中对ID命名定义样式。
 - 非必要情况下，ID和Class的命名尽量简短。
+- 如果使用CSS3的属性，如果有必要加入浏览器前缀，则按照-webkit-/-moz-/-ms-/-o-/std的顺序进行添加，标准属性写在最后，并且属性名称要对齐。
 - 省略URI外的引号（如background-image: url(../test.jpg)）。
 - 省略0后面的单位，非0情况下必须加上单位（如padding: 0; margin: 0; width: 100px）。
 - 省略0开头小数点前面的0（如padding: .5em，opacity: .8）。
@@ -34,7 +35,7 @@ categories: 前端规范
 - 保证选择器准确匹配到元素的前提下，尽量保持选择器的层级，建议不超过4级（如.site-nav ul li a span.num可简化为.site-nav li .num）
 - 尽量能缩写的属性定义尽量缩写（如margin-top:5px;margin-bottom: 10px;margin-left:3px;margin-right:3px可缩写为margin: 5px 3px 10px）。
 - CSS编写应该按模块编写，模块内每个元素的定义都在继承该模块最外层元素的Class。
-  如（.site-nav{},.site-nav li{},.site-nav li a{}）
+  如（.site-nav{}，.site-nav li{}，.site-nav li a{}）
 - 通用模块的定义可参考以下方式定义：
  - 容器采用mod-xxx（mod-可以省略）。
  - 容器的head，body，foot分别用 xxx-hd，xxx-bd，xxx-ft等。
@@ -68,6 +69,7 @@ categories: 前端规范
  - 消息：msg
  - 服务：service
  - 热门：hot
+ - 下载：download
  - 状态:status，state
  - 按钮：btn-show, btn-close
  - 图标：icon-manager, icon-user
