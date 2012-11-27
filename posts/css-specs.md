@@ -28,14 +28,13 @@ categories: 前端规范
 - 省略0开头小数点前面的0（如padding: .5em，opacity: .8）。
 - 16进制尽量采用3位（如用#fff代替#ffffff，#ffcc00代替#fc0）。
 - 避免使用CSS“Hacks”。
-- 在一些模块和特定页面代码中，避免编写 **可能** 影响全局的css声明，尽量继承其父级class/id名称，如（避免重定义body{},*{}，避免.hd{xxx}，采用.site-nav .hd{}）
+- 在一些模块和特定页面代码中，避免编写 **可能** 影响全局的css声明，尽量继承其父级class/id名称，如（避免重定义body{},*{}，避免.hd{xxx}，采用.site-nav .hd{}）。
 - 尽量避免使用!important，尽量采用复杂的CSS继承规则实现。
 - 对于页面的小图标，尽量采用CSS Sprite方式进行合并使用。
 - CSS背景图的定义要加上时间戳，每次更新图片时同步更新背景图的时间戳（如background-image: url(../test.jpg?t=20121127)）。
-- 保证选择器准确匹配到元素的前提下，尽量保持选择器的层级，建议不超过4级（如.site-nav ul li a span.num可简化为.site-nav li .num）
+- 保证选择器准确匹配到元素的前提下，尽量保持选择器的层级，建议不超过4级（如.site-nav ul li a span.num可简化为.site-nav li .num）。
 - 尽量能缩写的属性定义尽量缩写（如margin-top:5px;margin-bottom: 10px;margin-left:3px;margin-right:3px可缩写为margin: 5px 3px 10px）。
-- CSS编写应该按模块编写，模块内每个元素的定义都在继承该模块最外层元素的Class。
-  如（.site-nav{}，.site-nav li{}，.site-nav li a{}）
+- CSS编写应该按模块编写，模块内每个元素的定义都在继承该模块最外层元素的Class如（.site-nav{}，.site-nav li{}，.site-nav li a{}）。
 - 通用模块的定义可参考以下方式定义：
  - 容器采用mod-xxx（mod-可以省略）。
  - 容器的head，body，foot分别用 xxx-hd，xxx-bd，xxx-ft等。
