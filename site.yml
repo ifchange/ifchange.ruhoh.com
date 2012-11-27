@@ -1,16 +1,15 @@
-title : 逸橙 F2E
+title : 逸橙F2E
 tagline: Blog Tagline
 author :
   name : ifchange
   email : netman8410@gmail.com
   github : ifchange
   twitter : username
-  feedburner : feedname
 
 navigation :
-  - archive.html
-  - tags.html
   - categories.html
   - pages.html
+  - archive.html
+  - tags.html
   - about.md
   
