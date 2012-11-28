@@ -4,6 +4,9 @@ html, body {
     /*font-family: 'Microsoft Yahei', STHeiti, Helvetica, Arial, sans-serif;*/
     font-family: Georgia, Palatino, serif, Arial, sans-serif;;
 }
+pre.prettyprint{
+    margin: 5px 0 10px;
+}
 .navbar-inner{
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
