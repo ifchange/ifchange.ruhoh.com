@@ -5,7 +5,7 @@ layout : default
     <h1>{{ page.title }} {{# page.tagline }} <small>{{ . }}</small>{{/ page.tagline }}</h1>
     <ul class="info">
         <li class="cate">
-            <strong>Cate：</strong>{{# page.categories?to_categories }}<a href="{{url}}">{{name}}</a>{{/ page.categories?to_categories }}
+            <strong>Category：</strong>{{# page.categories?to_categories }}<a href="{{url}}">{{name}}</a>{{/ page.categories?to_categories }}
         </li>
         <li class="date"><strong>Publish：</strong>{{ page.date }}</li>
   </ul>
