@@ -1,12 +1,18 @@
 ---
 layout : default
 ---
-<div class="page-header">
-  <h1>{{ page.title }} {{# page.tagline }} <small>{{ . }}</small>{{/ page.tagline }}</h1>
+<div class="page-header clearfix">
+    <h1>{{ page.title }} {{# page.tagline }} <small>{{ . }}</small>{{/ page.tagline }}</h1>
+    <ul class="info">
+        <li class="cate">
+            <strong>Cate：</strong>{{# page.categories?to_categories }}<a href="{{url}}">{{name}}</a>{{/ page.categories?to_categories }}
+        </li>
+        <li class="date"><strong>Publish：</strong>{{ page.date }}</li>
+  </ul>
 </div>
 
 <div class="row">
-  <div class="span9">
+  <div class="span12">
     {{{ content }}}
     <hr/>
     <ul class="pager">
@@ -25,24 +31,5 @@ layout : default
         {{/ page?next }}
     </ul>
     {{{ comments }}}
-  </div>
-  
-  <div class="span3">
-    <h4>Published</h4>
-    <div class="date"><span>{{ page.date }}</span></div>
-    <br>
-    <h4>Categories</h4>
-    <ul class="cate_box">
-    {{# page.categories?to_categories }}
-      {{> categories_list }}
-    {{/ page.categories?to_categories }}
-    </ul>
-    <br>
-    <h4>Tags</h4>
-    <ul class="tag_box">
-    {{# page.tags?to_tags }}
-      {{> tags_list }}
-    {{/ page.tags?to_tags }}
-    </ul>
-  </div>
+    </div>
 </div>
