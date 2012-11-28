@@ -74,13 +74,13 @@ body, p, h4, h5, h6{
 }
 .page-header .info{
   float: right;
-  margin: 5px -10px 0 0;
+  margin: 5px -5px 0 0;
   display: inline
 }
 .page-header .info li{
   float: left;
   list-style: none;
-  padding: 0 10px;
+  padding: 0 5px;
 }
 .page-header .info .cate a{
   padding: 0 5px;
