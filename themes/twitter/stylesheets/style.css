@@ -2,6 +2,7 @@
 html, body {
     background-color: #eee;
     /*font-family: 'Microsoft Yahei', STHeiti, Helvetica, Arial, sans-serif;*/
+    font-family: Georgia, Palatino, serif, Arial, sans-serif;;
 }
 .navbar-inner{
     -webkit-border-radius: 0;
@@ -42,9 +43,11 @@ li{
 }
 .content h2{
   border-bottom: 2px solid #eee;
+  margin-bottom: 5px;
 }
 .content .row h3{
   border-bottom: 1px dashed #ccc;
+  margin-bottom: 5px;
 }
 .content h4{
   border-bottom: 2px solid #eee;
@@ -57,11 +60,12 @@ li{
   margin: -20px -20px 20px;
 }
 /* posts index */
-.post > h3.title {
+.post h3.title {
   position:relative;
   /*padding-top:10px;*/
   padding: 5px 0;
-  border-bottom:1px dotted #ccc;
+  margin: 0;
+  border-bottom:1px dashed #ccc;
 }
 .post > h3.title span.date { 
   position:absolute;
