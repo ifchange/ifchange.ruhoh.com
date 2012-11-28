@@ -55,6 +55,9 @@ li{
 .content h4{
   border-bottom: 2px solid #eee;
 }
+.pager{
+  margin-bottom: 0
+}
 
 /* Page header tweaks */
 .page-header {
