@@ -16,9 +16,7 @@ body, p, h4, h5, h6{
   font-size: 14px;
   line-height: 1.5
 }
-li{
-  line-height: 1.8
-}
+
 .navbar {
   margin-bottom: 0;
 }
@@ -54,6 +52,12 @@ li{
 }
 .content h4{
   border-bottom: 2px solid #eee;
+}
+.content .row li{
+  line-height: 1.8
+}
+.content .row .prettyprint li{
+  line-height: 18px;
 }
 .pager{
   margin-bottom: 0

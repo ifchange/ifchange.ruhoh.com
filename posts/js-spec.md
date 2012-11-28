@@ -104,7 +104,7 @@ categories: 前端规范
         if(val == 1){
            add();
         }else if(val == 2){
-           delete();
+           del();
         }
         if(val == 1){
             others();
@@ -117,7 +117,7 @@ categories: 前端规范
         if(val == ADD){
            add();
         }else if(val == DEL){
-           delete();
+           del();
         }
         if(val == ADD){
             others();
