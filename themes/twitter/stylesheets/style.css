@@ -79,7 +79,8 @@ li{
   padding: 0 10px;
 }
 .page-header .info .cate a{
-  padding: 0 5px
+  padding: 0 5px;
+  margin-left: -5px;
 }
 
 /* posts index */
