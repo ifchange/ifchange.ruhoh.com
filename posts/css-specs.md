@@ -11,6 +11,7 @@ categories: 前端规范
 
 ## 基础规范 ##
 - 文件编码统一使用不带BOM头的UTF-8编码。
+- windows换行符
 - 为防止文件合并及编码问题，避免在样式定义中出现中文，如定义中文字体时尽量采用英文名（如黑体用SimHei，微软雅黑用Microsoft Yahei，宋体用SimSun）。
 
 ## 风格规范 ##
@@ -35,8 +36,6 @@ categories: 前端规范
 - 省略0开头小数点前面的0（如padding: .5em，opacity: .8）。
 - 16进制尽量采用3位（如用#fff代替#ffffff，#ffcc00代替#fc0）。
 - 尽量能缩写的属性定义尽量缩写（如margin-top:5px;margin-bottom: 10px;margin-left:3px;margin-right:3px可缩写为margin: 5px 3px 10px）。
-- 避免使用CSS“Hacks”。
-- 避免使用!important。
 - 模块一定要加头尾注释，细节定义可以适当加注释。
     <pre>`<!-- news begin -->
     .mod-news {}
@@ -45,6 +44,9 @@ categories: 前端规范
     <!-- news end -->`</pre>
 
 ## 代码建议 ##
+- 避免使用CSS“Hacks”。
+- 避免使用id选择符及!important。
+- 避免使用超过4级的选择器组合
 - 在一些模块和特定页面代码中，避免编写 **可能** 影响全局的css声明，尽量继承其父级class/id名称，如（避免重定义body{},*{}，避免.hd{xxx}，采用.site-nav .hd{}）。
 - 保证选择器准确匹配到元素的前提下，尽量保持选择器的层级，建议不超过4级（如.site-nav ul li a span.num可简化为.site-nav li .num）。
 - 对于页面的小图标，尽量采用CSS Sprite方式进行合并使用。
