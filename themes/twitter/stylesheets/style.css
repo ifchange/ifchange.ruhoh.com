@@ -13,21 +13,26 @@ pre.prettyprint{
     border-radius: 0;
 }
 body, p, h4, h5, h6{
-  font-size: 14px;
-  line-height: 1.5
+    font-size: 14px;
+    line-height: 1.5
+}
+blockquote{
+    padding: 10px;
+    background: #fcfcfc;
+    border: 1px solid #ccc
 }
 
 .navbar {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 .navbar .container{ 
-  width:940px;
+    width:940px;
 }
 .container > footer {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 .container > footer p {
-  text-align: center; /* center align it with the container */
+    text-align: center; /* center align it with the container */
 }
 
 /* The white background content wrapper */
