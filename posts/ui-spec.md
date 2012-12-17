@@ -23,8 +23,9 @@ categories: 其它规范
 ### 标签 ###
 - label要与对应的表单关联，点击label要使对应的表单获取焦点
 - label用粗体文字，后面不添加冒号
-- 对于必填项，在label后显示星号（红色(#f00)，向上偏移0.4em，距左侧文字2px）
+- 对于必填项，在label后显示星号（红色(#f00)，向上偏移0.3em，向右偏移0.5em）
 - 垂直布局：左侧与其表单项对齐；水平布局：顶到最左侧。
+- 详情页面：label后面加中文冒号
 
 ### 按钮 ###
 - 页面按钮使用手型光标(cursor:pointer)
@@ -32,8 +33,8 @@ categories: 其它规范
 - 表单提交按钮：
  - 默认：灰色背景，白色文字，居中显示
  - Hover：**页面对应的主题色作为背景色，其它不变**
-- 大按钮（standard-button）：微软雅黑，字体大小18px，行高50px
-- 小按钮(small-button)：padding: 6px 8px，字体大小12px，加粗，字体simsun
+ - 大按钮（standard-button）：微软雅黑，字体大小18px，行高50px
+ - 小按钮（small-button）：padding: 6px 8px，字体大小12px，加粗，字体simsun
 
 ### 表单项 ###
 - txtInput/select/textarea：四周5px的内边距，1px的浅灰色(graycolor)边框/3px圆角，深灰色(darkgraycolor)不加粗文字
