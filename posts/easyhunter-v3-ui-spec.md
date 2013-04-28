@@ -1,5 +1,5 @@
 ---
-title: Easyhunter UI设计规范与约定
+title: Easyhunter-V3 UI设计规范与约定
 date: '2012-12-07'
 description:
 categories: 其它规范
